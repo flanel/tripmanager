@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6873921d-b798-47e6-bcb2-75494380f4be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,7 +19,17 @@
     <SUITE FILE_PATH="coverage/tripmanager$TripManagerTest.ic" NAME="TripManagerTest Coverage Results" MODIFIED="1557765615788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pl.edu.agh.mwo.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/tripmanager$TripTest_testAddingPhoto.ic" NAME="TripTest.testAddingPhoto Coverage Results" MODIFIED="1557768909220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.agh.mwo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tripmanager$TripTest.ic" NAME="TripTest Coverage Results" MODIFIED="1557769372052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.agh.mwo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tripmanager$All_in_tripmanager.ic" NAME="All in tripmanager Coverage Results" MODIFIED="1557769408390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tripmanager$PhotoTest.ic" NAME="PhotoTest Coverage Results" MODIFIED="1557767337986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.agh.mwo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tripmanager$pl_edu_agh_mwo_in_tripmanager.ic" NAME="pl.edu.agh.mwo in tripmanager Coverage Results" MODIFIED="1557769559432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pl.edu.agh.mwo.*</FILTER>
     </SUITE>
   </component>
@@ -23,25 +37,15 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myAutoScrollFromSource" value="true" />
-    <option name="myElementSize" value="95" />
+    <option name="myElementSize" value="168" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/TripAlreadyExistsException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/TripManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -49,34 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/PhotoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="79">
+              <caret line="66" column="54" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +77,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="529">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -120,9 +110,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/PhotoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,7 +193,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557767944092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557775878363" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,7 +207,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhotoTest">
+  <component name="RunManager" selected="JUnit.pl.edu.agh.mwo in tripmanager">
+    <configuration name="All in tripmanager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tripmanager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhotoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tripmanager" />
       <extension name="coverage">
@@ -229,7 +230,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TripTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tripmanager" />
       <extension name="coverage">
         <pattern>
@@ -238,15 +239,48 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.agh.mwo" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.agh.mwo.TripManagerTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.agh.mwo.TripTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripTest.testAddingPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tripmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.agh.mwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.agh.mwo" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.agh.mwo.TripTest" />
+      <option name="METHOD_NAME" value="testAddingPhoto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.edu.agh.mwo in tripmanager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tripmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.agh.mwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.agh.mwo" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.pl.edu.agh.mwo in tripmanager" />
+        <item itemvalue="JUnit.All in tripmanager" />
+        <item itemvalue="JUnit.TripTest" />
+        <item itemvalue="JUnit.TripTest.testAddingPhoto" />
         <item itemvalue="JUnit.PhotoTest" />
-        <item itemvalue="JUnit.TripManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,17 +298,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TripManagerTest - 2019.05.13 at 18h 40m 45s.xml">
-      <configuration name="TripManagerTest" configurationId="JUnit" />
+    <history-entry file="TripTest_testAddingPhoto - 2019.05.13 at 19h 34m 15s.xml">
+      <configuration name="TripTest.testAddingPhoto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhotoTest - 2019.05.13 at 18h 53m 36s.xml">
-      <configuration name="PhotoTest" configurationId="JUnit" />
+    <history-entry file="TripTest_testAddingPhoto - 2019.05.13 at 19h 34m 36s.xml">
+      <configuration name="TripTest.testAddingPhoto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhotoTest - 2019.05.13 at 19h 05m 45s.xml">
-      <configuration name="PhotoTest" configurationId="JUnit" />
+    <history-entry file="TripTest_testAddingPhoto - 2019.05.13 at 19h 35m 24s.xml">
+      <configuration name="TripTest.testAddingPhoto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhotoTest - 2019.05.13 at 19h 09m 14s.xml">
-      <configuration name="PhotoTest" configurationId="JUnit" />
+    <history-entry file="pl_edu_agh_mwo_in_tripmanager - 2019.05.13 at 19h 36m 40s.xml">
+      <configuration name="pl.edu.agh.mwo in tripmanager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripTest - 2019.05.13 at 19h 41m 08s.xml">
+      <configuration name="TripTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripTest - 2019.05.13 at 19h 42m 31s.xml">
+      <configuration name="TripTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripTest - 2019.05.13 at 19h 43m 08s.xml">
+      <configuration name="TripTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tripmanager - 2019.05.13 at 19h 43m 43s.xml">
+      <configuration name="All in tripmanager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="pl_edu_agh_mwo_in_tripmanager - 2019.05.13 at 19h 45m 25s.xml">
+      <configuration name="pl.edu.agh.mwo in tripmanager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="pl_edu_agh_mwo_in_tripmanager - 2019.05.13 at 19h 46m 16s.xml">
+      <configuration name="pl.edu.agh.mwo in tripmanager" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -295,7 +347,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21593292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,17 +357,53 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.23162004" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.281067" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/PhotoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="364">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="66" column="54" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,50 +416,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/TripManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="171">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Photo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/PhotoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="529">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/agh/mwo/Trip.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/agh/mwo/TripTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="401">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
         </state>
       </provider>
     </entry>

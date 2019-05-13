@@ -7,4 +7,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 env:
-  -CODECOV_TOKEN="58438d59-185c-4103-af1e-7695ec1d7d23"
+  -CODECOV_TOKEN="47af8f35-9b2a-4928-8ce5-0c3d992a9a0f"

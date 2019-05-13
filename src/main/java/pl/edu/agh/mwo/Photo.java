@@ -2,11 +2,18 @@ package pl.edu.agh.mwo;
 import java.util.Scanner;
 
 public class Photo {
-    String comment = "";
-    public void Photo (){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Add your comment");
-        String comment = scan.nextLine();
-        System.out.println("Your comment is:" + comment);
+
+    private String comment = "";
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+    public Photo(String arg_Comment){
+            comment = arg_Comment;
     }
 }

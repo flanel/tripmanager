@@ -23,6 +23,7 @@ public class TripTest {
 		assertEquals("New description", trip.getDescription());
 	}
 
+
 	@Test
 	public void testGetDescription() {
 		Trip trip = new Trip("nazwa", "");
@@ -85,4 +86,3 @@ public class TripTest {
 
 
 }
-  

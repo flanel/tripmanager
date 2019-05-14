@@ -13,6 +13,7 @@ public class Photo {
         this.comment = comment;
     }
 
+
     public Photo(String arg_Comment){
         comment = arg_Comment;
         System.out.println("Comment has been added " + comment);

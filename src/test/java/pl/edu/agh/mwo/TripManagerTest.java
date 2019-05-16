@@ -23,7 +23,6 @@ public class TripManagerTest {
 		assertEquals(1, tripManager.getTrips().size());
 	}
 
-
 	@Test(expected = TripAlreadyExistsException.class)
 	public void testAddTripTwice() throws TripAlreadyExistsException {
 		assertEquals(0, tripManager.getTrips().size());

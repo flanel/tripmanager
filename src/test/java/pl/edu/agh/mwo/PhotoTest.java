@@ -24,7 +24,6 @@ public class PhotoTest {
     }
 
 
-
     @Test
     public void testStringConstructor() {
         Photo photo = new Photo ("Przykladowy komentarz");

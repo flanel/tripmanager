@@ -30,7 +30,6 @@ public class Trip {
 		this.description = description;
 	}
 
-
 	public boolean addPhotos(Photo argPhoto) {	return photoList.add(argPhoto); }
 
 	public List<Photo> getPhotos() { return photoList; }
